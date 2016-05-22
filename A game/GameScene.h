@@ -1,0 +1,13 @@
+//
+//  GameScene.h
+//  A game
+//
+
+//  Copyright (c) 2016年 apple. All rights reserved.
+//
+
+#import <SpriteKit/SpriteKit.h>
+
+@interface GameScene : SKScene
+
+@end
