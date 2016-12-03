@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A525AA131CF29BA100F3B4C9 /* bullet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A525AA121CF29BA100F3B4C9 /* bullet.jpg */; };
+		A525AA191CF2A83300F3B4C9 /* player.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A525AA181CF2A83300F3B4C9 /* player.jpg */; };
 		A54B436C1CF190D300A5F261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B436B1CF190D300A5F261 /* main.m */; };
 		A54B436F1CF190D300A5F261 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B436E1CF190D300A5F261 /* AppDelegate.m */; };
 		A54B43721CF190D300A5F261 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B43711CF190D300A5F261 /* GameScene.m */; };
@@ -15,9 +17,14 @@
 		A54B437A1CF190D400A5F261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B43781CF190D400A5F261 /* Main.storyboard */; };
 		A54B437C1CF190D400A5F261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B437B1CF190D400A5F261 /* Assets.xcassets */; };
 		A54B437F1CF190D400A5F261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B437D1CF190D400A5F261 /* LaunchScreen.storyboard */; };
+		A54B438D1CF1BF7000A5F261 /* monster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54B438C1CF1BF7000A5F261 /* monster.jpg */; };
+		A54B43901CF1CBF800A5F261 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B438F1CF1CBF800A5F261 /* GameOverScene.m */; };
+		A5D5A2851CF30C1C0019F03E /* GameAgainBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D5A2841CF30C1C0019F03E /* GameAgainBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A525AA121CF29BA100F3B4C9 /* bullet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullet.jpg; sourceTree = "<group>"; };
+		A525AA181CF2A83300F3B4C9 /* player.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = player.jpg; sourceTree = "<group>"; };
 		A54B43671CF190D300A5F261 /* A game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54B436B1CF190D300A5F261 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A54B436D1CF190D300A5F261 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,6 +38,11 @@
 		A54B437B1CF190D400A5F261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54B437E1CF190D400A5F261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54B43801CF190D400A5F261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54B438C1CF1BF7000A5F261 /* monster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monster.jpg; sourceTree = "<group>"; };
+		A54B438E1CF1CBF800A5F261 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		A54B438F1CF1CBF800A5F261 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		A5D5A2831CF30C1C0019F03E /* GameAgainBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameAgainBtn.h; sourceTree = "<group>"; };
+		A5D5A2841CF30C1C0019F03E /* GameAgainBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameAgainBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +79,16 @@
 				A54B436E1CF190D300A5F261 /* AppDelegate.m */,
 				A54B43701CF190D300A5F261 /* GameScene.h */,
 				A54B43711CF190D300A5F261 /* GameScene.m */,
+				A54B438E1CF1CBF800A5F261 /* GameOverScene.h */,
+				A54B438F1CF1CBF800A5F261 /* GameOverScene.m */,
+				A5D5A2831CF30C1C0019F03E /* GameAgainBtn.h */,
+				A5D5A2841CF30C1C0019F03E /* GameAgainBtn.m */,
 				A54B43731CF190D300A5F261 /* GameScene.sks */,
 				A54B43751CF190D400A5F261 /* GameViewController.h */,
 				A54B43761CF190D400A5F261 /* GameViewController.m */,
+				A525AA121CF29BA100F3B4C9 /* bullet.jpg */,
+				A54B438C1CF1BF7000A5F261 /* monster.jpg */,
+				A525AA181CF2A83300F3B4C9 /* player.jpg */,
 				A54B43781CF190D400A5F261 /* Main.storyboard */,
 				A54B437B1CF190D400A5F261 /* Assets.xcassets */,
 				A54B437D1CF190D400A5F261 /* LaunchScreen.storyboard */,
@@ -145,9 +164,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A525AA191CF2A83300F3B4C9 /* player.jpg in Resources */,
 				A54B43741CF190D300A5F261 /* GameScene.sks in Resources */,
+				A525AA131CF29BA100F3B4C9 /* bullet.jpg in Resources */,
 				A54B437F1CF190D400A5F261 /* LaunchScreen.storyboard in Resources */,
 				A54B437C1CF190D400A5F261 /* Assets.xcassets in Resources */,
+				A54B438D1CF1BF7000A5F261 /* monster.jpg in Resources */,
 				A54B437A1CF190D400A5F261 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,8 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54B43901CF1CBF800A5F261 /* GameOverScene.m in Sources */,
 				A54B43771CF190D400A5F261 /* GameViewController.m in Sources */,
 				A54B436F1CF190D300A5F261 /* AppDelegate.m in Sources */,
+				A5D5A2851CF30C1C0019F03E /* GameAgainBtn.m in Sources */,
 				A54B43721CF190D300A5F261 /* GameScene.m in Sources */,
 				A54B436C1CF190D300A5F261 /* main.m in Sources */,
 			);
@@ -311,6 +335,7 @@
 				A54B43851CF190D400A5F261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
